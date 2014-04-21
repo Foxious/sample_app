@@ -1,0 +1,5 @@
+<% if signed_in? %>
+	<%= render 'layouts/home_user' %>
+<% else %>
+	<%= render 'layouts/home_new' %>
+<% end %>
